@@ -6,7 +6,7 @@
   "type": "module",
 
   "scripts": {
-
+	"start": "npm start",
     "server": "npm start --prefix backend",
     "client": "npm start --prefix frontend", 
  
