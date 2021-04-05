@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  E-Commerce Website using MERN Stack.
 A E-Commerce website developed using ReactJS for the frontend, NodeJs for the backend, MongoDB as database.
 
@@ -122,3 +123,6 @@ ________________________________________________________
 
 ## Contact
 [Suhas Suhas](https://www.suhassalian.netlify.com/) - feel free to contact me!
+=======
+# eshop2007
+>>>>>>> bb56ff0e8f3f9ee6cccd6faef654a592e39ee9ae
