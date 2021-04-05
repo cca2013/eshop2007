@@ -4,14 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "engines": {
-    "node": "12.x",
-    "npm": "6.x"
-  },
+
   "scripts": {
-	"start": "node backend/server",
-    "server": "nodemon backend/server",
-    "client": "npm start --prefix frontend",
+	"start": "npm start",
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend", 
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
