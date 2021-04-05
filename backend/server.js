@@ -37,8 +37,5 @@ if (process.env.NODE_ENV === "production") {
     });
 }
 
-app.listen(PORT, () =>
-    console.log(
-        "************************************************** \n The Server has started at : http://localhost:5000"
-    )
-);
+const PORT = process.env.PORT || 5000
+app.listen(PORT, console.log(`SERVER IS RUNNING IN ${process.env.NODE_ENV} MODE ON ${PORT}`.yellow.bold))
