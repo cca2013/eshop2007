@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "eshop2007",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,8 @@
     "npm": "6.x"
   },
   "scripts": {
-	  "start": "node Backend/server",
-    "server": "nodemon Backend/server",
+	"start": "node backend/server",
+    "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suhassalian27/E-Commerce-Website-using-ReactJS-NodeJS.git"
+    "url": "git+https://github.com/cca2013/eshop2007.git"
   },
   "author": "Suhas Salian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suhassalian27/E-Commerce-Website-using-ReactJS-NodeJS/issues"
+    "url": "https://github.com/cca2013/eshop2007.git/issues"
   },
-  "homepage": "https://github.com/suhassalian27/E-Commerce-Website-using-ReactJS-NodeJS#readme",
+  "homepage": "https://github.com/cca2013/eshop2007.git#readme",
   "dependencies": {
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
